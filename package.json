@@ -7,8 +7,10 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev:debug": "tsc -w",
-    "dev:watch": "nodemon --quiet --exec ts-node src/ecommerce.ts",
-    "dev": "ts-node-dev --respawn --transpile-only --quiet src/ecommerce.ts"
+    "run:university": "ts-node-dev --respawn --transpile-only --quiet src/UniversityLMS.ts",
+    "run:library": "ts-node-dev --respawn --transpile-only --quiet src/AdvancedLibraryMS.ts",
+    "run:ecommerce": "ts-node src/OOP_Ecommerce.ts",
+    "run:zoo": "ts-node src/zoo.ts"
   },
   "keywords": [],
   "author": "",
