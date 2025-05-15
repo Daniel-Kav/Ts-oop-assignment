@@ -10,7 +10,9 @@
     "run:university": "ts-node-dev --respawn --transpile-only --quiet src/UniversityLMS.ts",
     "run:library": "ts-node-dev --respawn --transpile-only --quiet src/AdvancedLibraryMS.ts",
     "run:ecommerce": "ts-node src/OOP_Ecommerce.ts",
+    "run:ridesharing": "ts-node src/RideSharing.ts",
     "run:zoo": "ts-node src/zoo.ts"
+
   },
   "keywords": [],
   "author": "",
