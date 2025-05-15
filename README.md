@@ -22,12 +22,17 @@ pnpm run run:ecommerce
 ```
 An object-oriented implementation of an e-commerce platform.
 
-### 4. Zoo Management System
+### 4. Ride Sharing System
+```bash
+pnpm run run:ridesharing
+```
+A system for managing ride by sharing passanger and driver location.
+
+### 5. Zoo Management System
 ```bash
 pnpm run run:zoo
 ```
 A system for managing zoo animals and their care.
-
 
 
 ## Getting Started
@@ -45,6 +50,7 @@ pnpm install
 src/
   ├── UniversityLMS.ts     # University Learning Management System
   ├── AdvancedLibraryMS.ts # Library Management System
+  ├── Rideshring.ts        # Ride Sharing System
   ├── OOP_Ecommerce.ts     # E-commerce System Implementation
   └── zoo.ts               # Zoo Management System
 ```
